@@ -48,12 +48,10 @@
       hsla(215, 98%, 61%, 1) 0px,
       transparent 0%
     ),
-    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    radial-gradient(at 97% 21%, rgb(23, 132, 32) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgb(21, 19, 78) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, rgb(41, 28, 5) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%);
   position: absolute;
   content: "";
   width: 100%;
@@ -80,7 +78,7 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply text-[30px] font-extrabold leading-[1.15] text-black sm:text-[35px] text-center;
 }
 
 .orange_gradient {
@@ -88,7 +86,7 @@
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;
+  @apply mt-5 text-[14px] text-gray-600 sm:text-[16px] text-center max-w-2xl;
 }
 
 .url_input {
